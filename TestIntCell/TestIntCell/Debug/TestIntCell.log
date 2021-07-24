@@ -1,0 +1,15 @@
+﻿Build started 21/7/2564 1:29:31.
+     1>Project "c:\Users\Asus\OneDrive\documents\visual studio 2010\Projects\TestIntCell\TestIntCell\TestIntCell.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\TestIntCell.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\TestIntCell.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt IntCell.cpp
+         IntCell.cpp
+     1>c:\users\asus\onedrive\documents\visual studio 2010\projects\testintcell\testintcell\intcell.cpp(4): error C2011: 'IntCell' : 'class' type redefinition
+                 c:\users\asus\onedrive\documents\visual studio 2010\projects\testintcell\testintcell\intcell.h(3) : see declaration of 'IntCell'
+     1>Done Building Project "c:\Users\Asus\OneDrive\documents\visual studio 2010\Projects\TestIntCell\TestIntCell\TestIntCell.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.12
