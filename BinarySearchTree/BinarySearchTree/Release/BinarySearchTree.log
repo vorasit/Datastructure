@@ -1,0 +1,17 @@
+﻿Build started 9/24/2020 6:09:39 PM.
+     1>Project "D:\งาน มจพ\เทอม3\Datastructe and Algorithm\BinarySearchTree\BinarySearchTree\BinarySearchTree.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\BinarySearchTree.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         BinarySearchTree.vcxproj -> D:\งาน มจพ\เทอม3\Datastructe and Algorithm\BinarySearchTree\Release\BinarySearchTree.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\BinarySearchTree.unsuccessfulbuild".
+         Touching "Release\BinarySearchTree.lastbuildstate".
+     1>Done Building Project "D:\งาน มจพ\เทอม3\Datastructe and Algorithm\BinarySearchTree\BinarySearchTree\BinarySearchTree.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.05

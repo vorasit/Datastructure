@@ -1,0 +1,56 @@
+﻿Build started 20/2/2561 2:10:55.
+     1>Project "D:\BinarySearchTree\BinarySearchTree\BinarySearchTree.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\BinarySearchTree.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BinarySearchTree.cpp mainProgram.cpp
+         mainProgram.cpp
+         BinarySearchTree.cpp
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(16): error C2995: 'BinarySearchTree<Comparable>::BinarySearchTree(const Comparable &)' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(43) : see declaration of 'BinarySearchTree<Comparable>::BinarySearchTree'
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(28): error C2995: 'BinarySearchTree<Comparable>::BinarySearchTree(const BinarySearchTree<Comparable> &)' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(44) : see declaration of 'BinarySearchTree<Comparable>::BinarySearchTree'
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(37): error C2995: 'BinarySearchTree<Comparable>::~BinarySearchTree(void)' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(45) : see declaration of 'BinarySearchTree<Comparable>::~BinarySearchTree'
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(46): error C2995: 'void BinarySearchTree<Comparable>::insert(const Comparable &)' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(54) : see declaration of 'BinarySearchTree<Comparable>::insert'
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(55): error C2995: 'void BinarySearchTree<Comparable>::remove(const Comparable &)' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(55) : see declaration of 'BinarySearchTree<Comparable>::remove'
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(66): error C2995: 'const Comparable &BinarySearchTree<Comparable>::findMin(void) const' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(47) : see declaration of 'BinarySearchTree<Comparable>::findMin'
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(76): error C2995: 'const Comparable &BinarySearchTree<Comparable>::findMax(void) const' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(48) : see declaration of 'BinarySearchTree<Comparable>::findMax'
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(87): error C2995: 'const Comparable &BinarySearchTree<Comparable>::find(const Comparable &) const' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(49) : see declaration of 'BinarySearchTree<Comparable>::find'
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(96): error C2995: 'void BinarySearchTree<Comparable>::makeEmpty(void)' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(53) : see declaration of 'BinarySearchTree<Comparable>::makeEmpty'
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(106): error C2995: 'bool BinarySearchTree<Comparable>::isEmpty(void) const' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(50) : see declaration of 'BinarySearchTree<Comparable>::isEmpty'
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(118): error C2995: 'void BinarySearchTree<Comparable>::printTree(void) const' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(51) : see declaration of 'BinarySearchTree<Comparable>::printTree'
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(134): error C2995: 'const BinarySearchTree<Comparable> &BinarySearchTree<Comparable>::operator =(const BinarySearchTree<Comparable> &)' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(57) : see declaration of 'BinarySearchTree<Comparable>::operator ='
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(148): error C2995: 'const Comparable &BinarySearchTree<Comparable>::elementAt(BinaryNode<Comparable> *) const' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(63) : see declaration of 'BinarySearchTree<Comparable>::elementAt'
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(168): error C2995: 'void BinarySearchTree<Comparable>::insert(const Comparable &,BinaryNode<Comparable> *&) const' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(65) : see declaration of 'BinarySearchTree<Comparable>::insert'
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(197): error C2995: 'void BinarySearchTree<Comparable>::remove(const Comparable &,BinaryNode<Comparable> *&) const' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(66) : see declaration of 'BinarySearchTree<Comparable>::remove'
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(212): error C2995: 'BinaryNode<Comparable> *BinarySearchTree<Comparable>::findMin(BinaryNode<Comparable> *) const' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(67) : see declaration of 'BinarySearchTree<Comparable>::findMin'
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(226): error C2995: 'BinaryNode<Comparable> *BinarySearchTree<Comparable>::findMax(BinaryNode<Comparable> *) const' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(68) : see declaration of 'BinarySearchTree<Comparable>::findMax'
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(247): error C2995: 'BinaryNode<Comparable> *BinarySearchTree<Comparable>::find(const Comparable &,BinaryNode<Comparable> *) const' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(69) : see declaration of 'BinarySearchTree<Comparable>::find'
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(280): error C2995: 'void BinarySearchTree<Comparable>::makeEmpty(BinaryNode<Comparable> *&) const' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(70) : see declaration of 'BinarySearchTree<Comparable>::makeEmpty'
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(294): error C2995: 'void BinarySearchTree<Comparable>::printTree(BinaryNode<Comparable> *) const' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(71) : see declaration of 'BinarySearchTree<Comparable>::printTree'
+     1>d:\binarysearchtree\binarysearchtree\binarysearchtree.cpp(307): error C2995: 'BinaryNode<Comparable> *BinarySearchTree<Comparable>::clone(BinaryNode<Comparable> *) const' : function template has already been defined
+                 d:\binarysearchtree\binarysearchtree\binarysearchtree.h(72) : see declaration of 'BinarySearchTree<Comparable>::clone'
+         Generating Code...
+     1>Done Building Project "D:\BinarySearchTree\BinarySearchTree\BinarySearchTree.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.38
