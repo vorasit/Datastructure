@@ -74,6 +74,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="MemoryCell.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MemoryCell.cpp" />
+    <ClCompile Include="TestMemoryCell.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

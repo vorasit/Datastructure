@@ -1,5 +1,5 @@
 #include "StdAfx.h"
-#include "IntCell.h"
+
 class IntCell
 {
 	public:

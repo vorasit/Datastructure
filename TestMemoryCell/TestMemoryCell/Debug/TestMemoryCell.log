@@ -1,0 +1,24 @@
+﻿Build started 25/7/2564 15:03:32.
+     1>Project "C:\Users\Asus\Desktop\Datastructure\TestMemoryCell\TestMemoryCell\TestMemoryCell.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\TestMemoryCell.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MemoryCell.cpp TestMemoryCell.cpp
+         TestMemoryCell.cpp
+         MemoryCell.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\TestMemoryCell.exe.embed.manifest.res" Debug\TestMemoryCell_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Asus\Desktop\Datastructure\TestMemoryCell\Debug\TestMemoryCell.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TestMemoryCell.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Asus\Desktop\Datastructure\TestMemoryCell\Debug\TestMemoryCell.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Asus\Desktop\Datastructure\TestMemoryCell\Debug\TestMemoryCell.lib" /MACHINE:X86 Debug\TestMemoryCell.exe.embed.manifest.res
+         Debug\MemoryCell.obj
+         Debug\TestMemoryCell.obj
+     1>TestMemoryCell.obj : error LNK2019: unresolved external symbol "public: void __thiscall MemoryCell<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::write(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?write@?$MemoryCell@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function _main
+     1>TestMemoryCell.obj : error LNK2019: unresolved external symbol "public: int __thiscall MemoryCell<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::read(void)const " (?read@?$MemoryCell@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QBEHXZ) referenced in function _main
+     1>TestMemoryCell.obj : error LNK2019: unresolved external symbol "public: __thiscall MemoryCell<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::MemoryCell<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0?$MemoryCell@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function _main
+     1>C:\Users\Asus\Desktop\Datastructure\TestMemoryCell\Debug\TestMemoryCell.exe : fatal error LNK1120: 3 unresolved externals
+     1>Done Building Project "C:\Users\Asus\Desktop\Datastructure\TestMemoryCell\TestMemoryCell\TestMemoryCell.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.81

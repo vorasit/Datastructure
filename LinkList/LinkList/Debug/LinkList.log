@@ -1,20 +1,38 @@
-﻿Build started 8/12/2020 1:54:44 PM.
-     1>Project "D:\งาน มจพ\เทอม3\Datastructe and Algorithm\LinkList\LinkList\LinkList.vcxproj" on node 2 (build target(s)).
+﻿Build started 25/7/2564 13:32:28.
+     1>Project "C:\Users\Asus\Desktop\Datastructure\LinkList\LinkList\LinkList.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\LinkList.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Listl.cpp
+         Listl.cpp
+     1>c:\users\asus\desktop\datastructure\linklist\linklist\listl.cpp(47): warning C4172: returning address of local variable or temporary
+                 c:\users\asus\desktop\datastructure\linklist\linklist\listl.cpp(45) : while compiling class template member function 'const int &ListItr<Object>::retrieve(void) const'
+                 with
+                 [
+                     Object=int
+                 ]
+                 c:\users\asus\desktop\datastructure\linklist\linklist\listl.cpp(208) : see reference to class template instantiation 'ListItr<Object>' being compiled
+                 with
+                 [
+                     Object=int
+                 ]
        ManifestResourceCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\LinkList.exe.embed.manifest.res" Debug\LinkList_manifest.rc 
        Link:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Asus\Desktop\Datastructure\LinkList\Debug\LinkList.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\LinkList.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Asus\Desktop\Datastructure\LinkList\Debug\LinkList.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Asus\Desktop\Datastructure\LinkList\Debug\LinkList.lib" /MACHINE:X86 Debug\LinkList.exe.embed.manifest.res
+         Debug\Listl.obj
+         LINK : C:\Users\Asus\Desktop\Datastructure\LinkList\Debug\LinkList.exe not found or not built by the last incremental link; performing full link
        Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\LinkList.exe.embed.manifest" /manifest Debug\LinkList.exe.intermediate.manifest
          All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         LinkList.vcxproj -> C:\Users\Asus\Desktop\Datastructure\LinkList\Debug\LinkList.exe
        FinalizeBuildStatus:
          Deleting file "Debug\LinkList.unsuccessfulbuild".
          Touching "Debug\LinkList.lastbuildstate".
-     1>Done Building Project "D:\งาน มจพ\เทอม3\Datastructe and Algorithm\LinkList\LinkList\LinkList.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\Asus\Desktop\Datastructure\LinkList\LinkList\LinkList.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.34
+Time Elapsed 00:00:01.51

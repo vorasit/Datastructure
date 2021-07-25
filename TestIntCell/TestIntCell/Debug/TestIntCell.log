@@ -1,15 +1,26 @@
-﻿Build started 21/7/2564 1:29:31.
-     1>Project "c:\Users\Asus\OneDrive\documents\visual studio 2010\Projects\TestIntCell\TestIntCell\TestIntCell.vcxproj" on node 2 (build target(s)).
+﻿Build started 25/7/2564 13:25:48.
+     1>Project "C:\Users\Asus\Desktop\Datastructure\TestIntCell\TestIntCell\TestIntCell.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Touching "Debug\TestIntCell.unsuccessfulbuild".
        ClCompile:
          All outputs are up-to-date.
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\TestIntCell.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt IntCell.cpp
-         IntCell.cpp
-     1>c:\users\asus\onedrive\documents\visual studio 2010\projects\testintcell\testintcell\intcell.cpp(4): error C2011: 'IntCell' : 'class' type redefinition
-                 c:\users\asus\onedrive\documents\visual studio 2010\projects\testintcell\testintcell\intcell.h(3) : see declaration of 'IntCell'
-     1>Done Building Project "c:\Users\Asus\OneDrive\documents\visual studio 2010\Projects\TestIntCell\TestIntCell\TestIntCell.vcxproj" (build target(s)) -- FAILED.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Asus\Desktop\Datastructure\TestIntCell\Debug\TestIntCell.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TestIntCell.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Asus\Desktop\Datastructure\TestIntCell\Debug\TestIntCell.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Asus\Desktop\Datastructure\TestIntCell\Debug\TestIntCell.lib" /MACHINE:X86 Debug\TestIntCell.res
+         Debug\TestIntCell.exe.embed.manifest.res
+         Debug\IntCell.obj
+         Debug\stdafx.obj
+         Debug\TestIntCell.obj
+     1>TestIntCell.obj : error LNK2019: unresolved external symbol "public: int __thiscall IntCell::read(void)const " (?read@IntCell@@QBEHXZ) referenced in function _main
+     1>TestIntCell.obj : error LNK2019: unresolved external symbol "public: void __thiscall IntCell::write(int)" (?write@IntCell@@QAEXH@Z) referenced in function _main
+     1>TestIntCell.obj : error LNK2019: unresolved external symbol "public: __thiscall IntCell::IntCell(int)" (??0IntCell@@QAE@H@Z) referenced in function _main
+     1>C:\Users\Asus\Desktop\Datastructure\TestIntCell\Debug\TestIntCell.exe : fatal error LNK1120: 3 unresolved externals
+     1>Done Building Project "C:\Users\Asus\Desktop\Datastructure\TestIntCell\TestIntCell\TestIntCell.vcxproj" (build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:00.12
+Time Elapsed 00:00:00.15
